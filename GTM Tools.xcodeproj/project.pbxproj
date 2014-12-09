@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E69390601A37ACB30023A1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E693905F1A37ACB30023A1C7 /* AppDelegate.swift */; };
+		E69390631A37ACB30023A1C7 /* GTM_Tools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E69390611A37ACB30023A1C7 /* GTM_Tools.xcdatamodeld */; };
+		E69390651A37ACB30023A1C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69390641A37ACB30023A1C7 /* Images.xcassets */; };
+		E69390681A37ACB30023A1C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69390661A37ACB30023A1C7 /* MainMenu.xib */; };
+		E69390741A37ACB30023A1C7 /* GTM_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69390731A37ACB30023A1C7 /* GTM_ToolsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E693906E1A37ACB30023A1C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E69390521A37ACB30023A1C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E69390591A37ACB30023A1C7;
+			remoteInfo = "GTM Tools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E693905A1A37ACB30023A1C7 /* GTM Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GTM Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E693905E1A37ACB30023A1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E693905F1A37ACB30023A1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E69390621A37ACB30023A1C7 /* GTM_Tools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GTM_Tools.xcdatamodel; sourceTree = "<group>"; };
+		E69390641A37ACB30023A1C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E69390671A37ACB30023A1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E693906D1A37ACB30023A1C7 /* GTM ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GTM ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69390721A37ACB30023A1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E69390731A37ACB30023A1C7 /* GTM_ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTM_ToolsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E69390571A37ACB30023A1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E693906A1A37ACB30023A1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E69390511A37ACB30023A1C7 = {
+			isa = PBXGroup;
+			children = (
+				E693905C1A37ACB30023A1C7 /* GTM Tools */,
+				E69390701A37ACB30023A1C7 /* GTM ToolsTests */,
+				E693905B1A37ACB30023A1C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E693905B1A37ACB30023A1C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E693905A1A37ACB30023A1C7 /* GTM Tools.app */,
+				E693906D1A37ACB30023A1C7 /* GTM ToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E693905C1A37ACB30023A1C7 /* GTM Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E693905F1A37ACB30023A1C7 /* AppDelegate.swift */,
+				E69390641A37ACB30023A1C7 /* Images.xcassets */,
+				E69390661A37ACB30023A1C7 /* MainMenu.xib */,
+				E69390611A37ACB30023A1C7 /* GTM_Tools.xcdatamodeld */,
+				E693905D1A37ACB30023A1C7 /* Supporting Files */,
+			);
+			path = "GTM Tools";
+			sourceTree = "<group>";
+		};
+		E693905D1A37ACB30023A1C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E693905E1A37ACB30023A1C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E69390701A37ACB30023A1C7 /* GTM ToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E69390731A37ACB30023A1C7 /* GTM_ToolsTests.swift */,
+				E69390711A37ACB30023A1C7 /* Supporting Files */,
+			);
+			path = "GTM ToolsTests";
+			sourceTree = "<group>";
+		};
+		E69390711A37ACB30023A1C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E69390721A37ACB30023A1C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E69390591A37ACB30023A1C7 /* GTM Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E69390771A37ACB30023A1C7 /* Build configuration list for PBXNativeTarget "GTM Tools" */;
+			buildPhases = (
+				E69390561A37ACB30023A1C7 /* Sources */,
+				E69390571A37ACB30023A1C7 /* Frameworks */,
+				E69390581A37ACB30023A1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GTM Tools";
+			productName = "GTM Tools";
+			productReference = E693905A1A37ACB30023A1C7 /* GTM Tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E693906C1A37ACB30023A1C7 /* GTM ToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E693907A1A37ACB30023A1C7 /* Build configuration list for PBXNativeTarget "GTM ToolsTests" */;
+			buildPhases = (
+				E69390691A37ACB30023A1C7 /* Sources */,
+				E693906A1A37ACB30023A1C7 /* Frameworks */,
+				E693906B1A37ACB30023A1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E693906F1A37ACB30023A1C7 /* PBXTargetDependency */,
+			);
+			name = "GTM ToolsTests";
+			productName = "GTM ToolsTests";
+			productReference = E693906D1A37ACB30023A1C7 /* GTM ToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E69390521A37ACB30023A1C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Analytics Pros";
+				TargetAttributes = {
+					E69390591A37ACB30023A1C7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E693906C1A37ACB30023A1C7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E69390591A37ACB30023A1C7;
+					};
+				};
+			};
+			buildConfigurationList = E69390551A37ACB30023A1C7 /* Build configuration list for PBXProject "GTM Tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E69390511A37ACB30023A1C7;
+			productRefGroup = E693905B1A37ACB30023A1C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E69390591A37ACB30023A1C7 /* GTM Tools */,
+				E693906C1A37ACB30023A1C7 /* GTM ToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E69390581A37ACB30023A1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69390651A37ACB30023A1C7 /* Images.xcassets in Resources */,
+				E69390681A37ACB30023A1C7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E693906B1A37ACB30023A1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E69390561A37ACB30023A1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69390631A37ACB30023A1C7 /* GTM_Tools.xcdatamodeld in Sources */,
+				E69390601A37ACB30023A1C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69390691A37ACB30023A1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69390741A37ACB30023A1C7 /* GTM_ToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E693906F1A37ACB30023A1C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E69390591A37ACB30023A1C7 /* GTM Tools */;
+			targetProxy = E693906E1A37ACB30023A1C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E69390661A37ACB30023A1C7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E69390671A37ACB30023A1C7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E69390751A37ACB30023A1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E69390761A37ACB30023A1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E69390781A37ACB30023A1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GTM Tools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E69390791A37ACB30023A1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GTM Tools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E693907B1A37ACB30023A1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GTM ToolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTM Tools.app/Contents/MacOS/GTM Tools";
+			};
+			name = Debug;
+		};
+		E693907C1A37ACB30023A1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GTM ToolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTM Tools.app/Contents/MacOS/GTM Tools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E69390551A37ACB30023A1C7 /* Build configuration list for PBXProject "GTM Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E69390751A37ACB30023A1C7 /* Debug */,
+				E69390761A37ACB30023A1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E69390771A37ACB30023A1C7 /* Build configuration list for PBXNativeTarget "GTM Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E69390781A37ACB30023A1C7 /* Debug */,
+				E69390791A37ACB30023A1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E693907A1A37ACB30023A1C7 /* Build configuration list for PBXNativeTarget "GTM ToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E693907B1A37ACB30023A1C7 /* Debug */,
+				E693907C1A37ACB30023A1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E69390611A37ACB30023A1C7 /* GTM_Tools.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E69390621A37ACB30023A1C7 /* GTM_Tools.xcdatamodel */,
+			);
+			currentVersion = E69390621A37ACB30023A1C7 /* GTM_Tools.xcdatamodel */;
+			path = GTM_Tools.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E69390521A37ACB30023A1C7 /* Project object */;
+}
