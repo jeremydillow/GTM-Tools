@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2472BC6F422BF5F9416E782 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E74F779764C4D250209C32FA /* libPods.a */; };
 		E69390601A37ACB30023A1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E693905F1A37ACB30023A1C7 /* AppDelegate.swift */; };
 		E69390631A37ACB30023A1C7 /* GTM_Tools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E69390611A37ACB30023A1C7 /* GTM_Tools.xcdatamodeld */; };
 		E69390651A37ACB30023A1C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69390641A37ACB30023A1C7 /* Images.xcassets */; };
 		E69390681A37ACB30023A1C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69390661A37ACB30023A1C7 /* MainMenu.xib */; };
 		E69390741A37ACB30023A1C7 /* GTM_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69390731A37ACB30023A1C7 /* GTM_ToolsTests.swift */; };
+		E69390861A37ACCF0023A1C7 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E693907E1A37ACCF0023A1C7 /* extensions.swift */; };
+		E69390871A37ACCF0023A1C7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E693907F1A37ACCF0023A1C7 /* Info.plist */; };
+		E69390881A37ACCF0023A1C7 /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69390811A37ACCF0023A1C7 /* OAuth2.swift */; };
+		E69390891A37ACCF0023A1C7 /* OAuth2CodeGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69390821A37ACCF0023A1C7 /* OAuth2CodeGrant.swift */; };
+		E693908A1A37ACCF0023A1C7 /* OAuth2ImplicitGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69390831A37ACCF0023A1C7 /* OAuth2ImplicitGrant.swift */; };
+		E693908B1A37ACCF0023A1C7 /* OAuth2Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69390841A37ACCF0023A1C7 /* OAuth2Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A3DBDD89B471565E458AE02 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		86626AA91592A210A8B0AF6E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E693905A1A37ACB30023A1C7 /* GTM Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GTM Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E693905E1A37ACB30023A1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E693905F1A37ACB30023A1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +43,15 @@
 		E693906D1A37ACB30023A1C7 /* GTM ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GTM ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69390721A37ACB30023A1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E69390731A37ACB30023A1C7 /* GTM_ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTM_ToolsTests.swift; sourceTree = "<group>"; };
+		E693907E1A37ACCF0023A1C7 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		E693907F1A37ACCF0023A1C7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E69390801A37ACCF0023A1C7 /* OAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth2.h; sourceTree = "<group>"; };
+		E69390811A37ACCF0023A1C7 /* OAuth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2.swift; sourceTree = "<group>"; };
+		E69390821A37ACCF0023A1C7 /* OAuth2CodeGrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2CodeGrant.swift; sourceTree = "<group>"; };
+		E69390831A37ACCF0023A1C7 /* OAuth2ImplicitGrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2ImplicitGrant.swift; sourceTree = "<group>"; };
+		E69390841A37ACCF0023A1C7 /* OAuth2Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Request.swift; sourceTree = "<group>"; };
+		E69390931A37B4610023A1C7 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		E74F779764C4D250209C32FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2472BC6F422BF5F9416E782 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8177AD2716820920342357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E74F779764C4D250209C32FA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78BF6687077B0B0AABAD2F08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A3DBDD89B471565E458AE02 /* Pods.debug.xcconfig */,
+				86626AA91592A210A8B0AF6E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E69390511A37ACB30023A1C7 = {
 			isa = PBXGroup;
 			children = (
 				E693905C1A37ACB30023A1C7 /* GTM Tools */,
 				E69390701A37ACB30023A1C7 /* GTM ToolsTests */,
 				E693905B1A37ACB30023A1C7 /* Products */,
+				78BF6687077B0B0AABAD2F08 /* Pods */,
+				1F8177AD2716820920342357 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +118,7 @@
 				E69390661A37ACB30023A1C7 /* MainMenu.xib */,
 				E69390611A37ACB30023A1C7 /* GTM_Tools.xcdatamodeld */,
 				E693905D1A37ACB30023A1C7 /* Supporting Files */,
+				E69390931A37B4610023A1C7 /* BridgingHeader.h */,
 			);
 			path = "GTM Tools";
 			sourceTree = "<group>";
@@ -87,6 +126,7 @@
 		E693905D1A37ACB30023A1C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E693907D1A37ACCF0023A1C7 /* OAuth2 */,
 				E693905E1A37ACB30023A1C7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -109,6 +149,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E693907D1A37ACCF0023A1C7 /* OAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				E693907E1A37ACCF0023A1C7 /* extensions.swift */,
+				E693907F1A37ACCF0023A1C7 /* Info.plist */,
+				E69390801A37ACCF0023A1C7 /* OAuth2.h */,
+				E69390811A37ACCF0023A1C7 /* OAuth2.swift */,
+				E69390821A37ACCF0023A1C7 /* OAuth2CodeGrant.swift */,
+				E69390831A37ACCF0023A1C7 /* OAuth2ImplicitGrant.swift */,
+				E69390841A37ACCF0023A1C7 /* OAuth2Request.swift */,
+			);
+			path = OAuth2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E69390771A37ACB30023A1C7 /* Build configuration list for PBXNativeTarget "GTM Tools" */;
 			buildPhases = (
+				0A518D3772A9183CD49519C7 /* Check Pods Manifest.lock */,
 				E69390561A37ACB30023A1C7 /* Sources */,
 				E69390571A37ACB30023A1C7 /* Frameworks */,
 				E69390581A37ACB30023A1C7 /* Resources */,
+				931BFDE0DFD78F330B21236C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +247,7 @@
 			files = (
 				E69390651A37ACB30023A1C7 /* Images.xcassets in Resources */,
 				E69390681A37ACB30023A1C7 /* MainMenu.xib in Resources */,
+				E69390871A37ACCF0023A1C7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,13 +260,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A518D3772A9183CD49519C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		931BFDE0DFD78F330B21236C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E69390561A37ACB30023A1C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E693908A1A37ACCF0023A1C7 /* OAuth2ImplicitGrant.swift in Sources */,
 				E69390631A37ACB30023A1C7 /* GTM_Tools.xcdatamodeld in Sources */,
 				E69390601A37ACB30023A1C7 /* AppDelegate.swift in Sources */,
+				E69390881A37ACCF0023A1C7 /* OAuth2.swift in Sources */,
+				E69390891A37ACCF0023A1C7 /* OAuth2CodeGrant.swift in Sources */,
+				E69390861A37ACCF0023A1C7 /* extensions.swift in Sources */,
+				E693908B1A37ACCF0023A1C7 /* OAuth2Request.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,23 +417,27 @@
 		};
 		E69390781A37ACB30023A1C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3DBDD89B471565E458AE02 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "GTM Tools/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GTM Tools/BridgingHeader.h";
 			};
 			name = Debug;
 		};
 		E69390791A37ACB30023A1C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86626AA91592A210A8B0AF6E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "GTM Tools/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GTM Tools/BridgingHeader.h";
 			};
 			name = Release;
 		};
@@ -397,6 +496,7 @@
 				E69390791A37ACB30023A1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E693907A1A37ACB30023A1C7 /* Build configuration list for PBXNativeTarget "GTM ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +505,7 @@
 				E693907C1A37ACB30023A1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

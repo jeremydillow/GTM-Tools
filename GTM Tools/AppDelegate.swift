@@ -8,16 +8,26 @@
 
 import Cocoa
 
+
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+
+    let settings = [
+        "client_id": "718675962691-9tlr5dqua5a5uvm5roc376q3v511r3av.apps.googleusercontent.com",
+        "client_secret": "AxeW3LfUZzmlIPBBTrSXca9M",
+        "authorize_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://accounts.google.com/o/oauth2/token",
+    ]
+    
+    let keychainItemName = "GTM Tools"
 
     @IBOutlet weak var window: NSWindow!
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
+        var auth = GTMOAuth2WindowController.authForGoogleFromKeychainForName(self.keychainItemName, clientID: settings["client_id"], clientSecret: settings["client_secret"])
     }
-
+    
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
@@ -157,6 +167,47 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // If we got here, it is time to quit.
         return .TerminateNow
     }
+    
+    
 
+    @IBAction func authorize(sender: AnyObject?) {
+        let scope = "https://www.googleapis.com/auth/tagmanager.edit.containers https://www.googleapis.com/auth/tagmanager.edit.containerversions https://www.googleapis.com/auth/tagmanager.manage.accounts https://www.googleapis.com/auth/tagmanager.manage.users https://www.googleapis.com/auth/tagmanager.publish https://www.googleapis.com/auth/tagmanager.readonly"
+
+        let clientID = settings["client_id"]!
+        let clientSecret = settings["client_secret"]!
+        
+        var windowController = GTMOAuth2WindowController(scope: scope, clientID: clientID, clientSecret: clientSecret, keychainItemName: self.keychainItemName, resourceBundle: nil)
+        
+        windowController.signInSheetModalForWindow(self.window) { (auth, error) in
+            if error != nil {
+                println("error authenticating: \(error.localizedDescription)")
+            } else {
+                println("auth success: \(auth)")
+                
+            }
+        }
+        
+    }
+    
+    
+    /*
+    // you can now request data with signed requests, like so:
+    let resource: NSURL? = NSURL(string: "https://fhir-api.smartplatforms.org/Patient/_search?_id=1288992")
+    let request = oauth.request(forURL: resource!)
+    let session = NSURLSession.sharedSession()
+    let task = session.dataTaskWithRequest(request) { data, response, error in
+    println("Got response \(response) or error \(error)")
+    }
+    //	task.resume()
+    }
+    oauth.onFailure = { error in
+    if nil != error {
+    println("Authorization failed: \(error!.localizedDescription)")
+    }
+    }
+    
+*/
+    
+    
 }
 
